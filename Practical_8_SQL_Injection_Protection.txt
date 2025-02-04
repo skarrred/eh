@@ -1,0 +1,5 @@
+SQL Injection Protection
+
+1. Test SQL Injection with Havij:
+   - Open Havij and enter the target website URL.
+   - Perform SQL injection tests.

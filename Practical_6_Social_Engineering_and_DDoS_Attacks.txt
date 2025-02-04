@@ -1,0 +1,9 @@
+Social Engineering and DDoS Attacks
+
+1. Clone a Website Using SET:
+   - Run `setoolkit` in Kali Linux.
+   - Select Website Cloner and provide a URL.
+
+2. Perform a DDoS Attack:
+   - Use LOIC or HOIC to flood the target with requests.
+   - Use `msfconsole` to perform a SYN flood attack.

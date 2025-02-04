@@ -1,0 +1,7 @@
+Cryptography
+
+1. Hash Data with HashCalc:
+   - Input text or a file and generate MD5/SHA hashes.
+
+2. Encrypt Files with TrueCrypt:
+   - Create an encrypted volume and store files securely.

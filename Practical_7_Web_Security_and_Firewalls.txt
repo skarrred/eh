@@ -1,0 +1,8 @@
+Web Security and Firewalls
+
+1. Scan Web Apps with OWASP ZAP:
+   - Start OWASP ZAP and enter the target URL.
+   - Perform active scanning.
+
+2. Use DroidSheep for Session Hijacking:
+   - Start DroidSheep and monitor network traffic.

@@ -1,0 +1,5 @@
+Wireless Hacking
+
+1. Crack Wi-Fi with Aircrack-ng:
+   - Capture WPA handshake using `airodump-ng`.
+   - Crack it using `aircrack-ng -b [BSSID] [capture file]`.

@@ -1,0 +1,8 @@
+Traffic Analysis and MAC Spoofing
+
+1. Capture Network Traffic with Wireshark:
+   - Start Wireshark and select an active network adapter.
+   - Capture packets and filter using `http` or `tcp`.
+
+2. Perform MAC Spoofing:
+   - Open SMAC, select an adapter, and generate a random MAC.

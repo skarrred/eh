@@ -1,0 +1,10 @@
+Mobile Scanning and System Hacking
+
+1. Scan Mobile Networks with Nessus:
+   - Configure Nessus to scan for mobile vulnerabilities.
+
+2. Use PWDump for Windows Passwords:
+   - Run `PwDump7.exe` to extract Windows password hashes.
+
+3. Crack Passwords with Ophcrack:
+   - Load hashes into Ophcrack and use rainbow tables.

@@ -1,0 +1,25 @@
+Footprinting and Reconnaissance
+
+1. Open Recon-ng in Kali Linux:
+   - Run `recon-ng` in the terminal.
+   - Use `show modules` to list available modules.
+   - Use `use recon/domain-hosts/netcraft` to gather domain information.
+   - Set the source using `set source [domain]` and run the module.
+
+2. Use FOCA for Metadata Extraction:
+   - Open FOCA, create a new project, and enter domain details.
+   - Select search engines and document types.
+   - Extract metadata from downloaded files.
+
+3. Perform WHOIS Lookup:
+   - Use `whois [domain]` in the terminal.
+   - Alternatively, use online tools like whois.com.
+
+4. Use HTTrack to Copy Websites:
+   - Open HTTrack and enter the target website URL.
+   - Configure options and start mirroring the site.
+
+5. Use Metasploit for Information Gathering:
+   - Open Kali Linux and start Metasploit using `msfconsole`.
+   - Run `hosts` to see network devices.
+   - Use `use auxiliary/gather` modules for recon.
